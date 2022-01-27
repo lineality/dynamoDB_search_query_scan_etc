@@ -82,8 +82,10 @@ def lambda_handler(event, context):
                                             PK_query_data_type, 
                                             PK_query_text)
 
+    # simple test output
     return output
 
+    # # Common lambda function output
     # return {
     #     'statusCode': 200,
     #     'body1': output
